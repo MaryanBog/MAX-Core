@@ -1,0 +1,58 @@
+# ===============================
+# Build directories
+# ===============================
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+Testing/
+
+# ===============================
+# CMake / Ninja
+# ===============================
+*.ninja
+.ninja_log
+.ninja_deps
+compile_commands.json
+
+# ===============================
+# Binaries
+# ===============================
+*.exe
+*.dll
+*.a
+*.lib
+*.obj
+*.o
+*.so
+
+# ===============================
+# Test & Coverage artifacts
+# ===============================
+*.gcno
+*.gcda
+*.gcov
+
+# ===============================
+# Output files
+# ===============================
+*.csv
+out_*.*
+examples_*.csv
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ===============================
+# Temporary
+# ===============================
+*.log
+*.tmp
